@@ -1,9 +1,20 @@
 html
   head
-    title Example title
+    title Atangia
     meta charset='utf-8'
     link rel="stylesheet" href="/stylesheets/application.css"
+    link rel="stylesheet" href="../stylesheets/orman.css" type="text/css" media="screen"
+    link rel="stylesheet" href="../stylesheets/nivo-slider.css" type="text/css" media="screen"
+    script type="text/javascript" src="../javascripts/jquery_162.js"
+    script type="text/javascript" src="../javascripts/jquery.nivo.slider.pack.js"
+    script type="text/javascript"
+
   body
     #container
       #content
-        == yield
+        img src="/images/bg.jpg" class="bg"
+        #opacity_box
+          == render partial: "header"
+          == yield
+        #footer
+          == render partial: "footer"
