@@ -3,29 +3,52 @@
 @import blueprint
 @import blueprint/scaffolding
 @import compass/css3
+@import "blueprint/fancy-type"
 
-+global-reset
+kglobal-reset
 
 body
   +blueprint-typography(true)
   +blueprint-utilities
   +blueprint-debug
   +blueprint-interaction
-  // Remove the scaffolding when you're ready to start doing visual design.
-  // Or leave it in if you're happy with how blueprint looks out-of-the-box
   +blueprint-scaffolding
-  padding: 10px
+  padding: 0px
 
-#container
-  +container
-#content
-  +column($blueprint-grid-columns)
+img.bg
+  min-height: 100%
+  min-width: 1024px
 
-#bg
+  width: 100%
+  height: auto
+
   position: fixed
   top: 0
   left: 0
-  /* Preserve aspet ratio
-  min-width: 100%
-  min-height: 100%
+
+#content
+  height: 200px
+  width: 600px
+  margin-left: auto
+  margin-right: auto
+  font-size: 80px
+  font-family: 'FuturaStdMedium'
+  // bring to front
+  position: relative
+
+
+
+@font-face
+  font-family: 'FuturaStdMedium'
+  src: url('.../fonts/futurastd-medium-webfont.eot')
+  src: url('.../fonts/futurastd-medium-webfont.eot?#iefix') format('embedded-opentype')
+  src: url('.../fonts/futurastd-medium-webfont.woff') format('woff')
+  src: url('.../fonts/futurastd-medium-webfont.ttf') format('truetype')
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'FuturaStdMedium'
+  src: url("../fonts/futurastd-medium-webfont.eot")
+  src: local("☺"), url("../fonts/futurastd-medium-webfont.woff") format("woff"), url("../fonts/nfuturastd-medium-webfont.ttf") format("truetype")
 
