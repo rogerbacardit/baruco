@@ -5,7 +5,7 @@
 @import compass/css3
 @import "blueprint/fancy-type"
 
-kglobal-reset
++global-reset
 
 body
   +blueprint-typography(true)
@@ -27,15 +27,40 @@ img.bg
   left: 0
 
 #content
-  height: 200px
-  width: 600px
-  margin-left: auto
-  margin-right: auto
-  font-size: 80px
-  font-family: 'FuturaStdMedium'
-  // bring to front
+  height: 100px
+  width: 750px
+  margin: auto
+  top: 40%
   position: relative
+  color: black
+  vertical-align: middle
 
+  span.barcelona
+    font-size: 123px
+    color: white
+    letter-spacing: 2px
+    font-family: 'FuturaStdMedium'
+    // bring to front
+    position: relative
+    display: block
+
+  span.ruby_conference
+    position: relative
+    font-size: 55px
+    color: white
+    display: inline
+    top: -45px
+    left: 5px
+    float: left
+
+  .logo
+    background: url('../images/logo.png') top left no-repeat
+    height: 100px
+    width: 100px
+    position: relative
+    top: -40px
+    left: -30px
+    float: right
 
 
 @font-face
