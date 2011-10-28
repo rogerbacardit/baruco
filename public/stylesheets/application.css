@@ -370,7 +370,7 @@ img.bg {
   height: 100px;
   width: 750px;
   margin: auto;
-  top: 40%;
+  top: 20%;
   position: relative;
   color: black;
   vertical-align: middle;
@@ -382,6 +382,9 @@ img.bg {
   font-family: "FuturaStdMedium";
   position: relative;
   display: block;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
 }
 #content span.ruby_conference {
   position: relative;
@@ -391,6 +394,9 @@ img.bg {
   top: -45px;
   left: 5px;
   float: left;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
 }
 #content .logo {
   background: url("../images/logo.png") top left no-repeat;
@@ -400,6 +406,36 @@ img.bg {
   top: -40px;
   left: -30px;
   float: right;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+}
+
+#links {
+  top: 20px;
+  left: 0px;
+  margin: 0px;
+  padding-left: 0px;
+  position: relative;
+  width: 400px;
+  font-family: "FuturaStdMedium";
+  font-size: 15px;
+  color: white;
+  list-style: none;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+}
+#links li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+}
+#links:hover {
+  color: white;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1000)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=1000);
+  opacity: 10;
 }
 
 @font-face {

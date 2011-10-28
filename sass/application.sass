@@ -4,6 +4,8 @@
 @import blueprint/scaffolding
 @import compass/css3
 @import "blueprint/fancy-type"
+@import "compass/typography/lists/bullets"
+@import compass/css3
 
 +global-reset
 
@@ -30,7 +32,7 @@ img.bg
   height: 100px
   width: 750px
   margin: auto
-  top: 40%
+  top: 20%
   position: relative
   color: black
   vertical-align: middle
@@ -43,6 +45,8 @@ img.bg
     // bring to front
     position: relative
     display: block
+    +opacitybaruco
+
 
   span.ruby_conference
     position: relative
@@ -52,6 +56,8 @@ img.bg
     top: -45px
     left: 5px
     float: left
+    +opacitybaruco
+
 
   .logo
     background: url('../images/logo.png') top left no-repeat
@@ -61,6 +67,24 @@ img.bg
     top: -40px
     left: -30px
     float: right
+    +opacitybaruco
+
+
+#links
+  top: 20px
+  left: 0px
+  margin: 0px
+  padding-left: 0px
+  position: relative
+  width: 400px
+  font-family: 'FuturaStdMedium'
+  font-size: 15px
+  color: white
+  +no-bullets
+  +opacity(0.6)
+  &:hover
+    color: white
+    +opacity(10)
 
 
 @font-face
