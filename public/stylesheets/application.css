@@ -370,18 +370,17 @@ img.bg {
   height: 100px;
   width: 750px;
   margin: auto;
-  top: 20%;
+  top: 15%;
   position: relative;
-  color: black;
   vertical-align: middle;
 }
 #content span.barcelona {
   font-size: 123px;
-  color: white;
   letter-spacing: 2px;
   font-family: "FuturaStdMedium";
   position: relative;
   display: block;
+  color: white;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
   opacity: 0.6;
@@ -389,11 +388,21 @@ img.bg {
 #content span.ruby_conference {
   position: relative;
   font-size: 55px;
-  color: white;
   display: inline;
   top: -45px;
   left: 5px;
   float: left;
+  color: white;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+}
+#content span.september {
+  position: relative;
+  font-size: 40px;
+  left: 25%;
+  float: left;
+  color: white;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
   opacity: 0.6;
@@ -403,9 +412,10 @@ img.bg {
   height: 100px;
   width: 100px;
   position: relative;
-  top: -40px;
+  top: -120px;
   left: -30px;
   float: right;
+  color: white;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
   opacity: 0.6;
@@ -420,8 +430,8 @@ img.bg {
   width: 400px;
   font-family: "FuturaStdMedium";
   font-size: 15px;
-  color: white;
   list-style: none;
+  color: white;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
   opacity: 0.6;
