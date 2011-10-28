@@ -6,16 +6,20 @@
 @import "blueprint/fancy-type"
 @import "compass/typography/lists/bullets"
 @import compass/css3
+@import tweets
+@import "compass/css3/text-shadow"
 
 +global-reset
 
 body
+  padding: 0px
+
   +blueprint-typography(true)
   +blueprint-utilities
   +blueprint-debug
   +blueprint-interaction
   +blueprint-scaffolding
-  padding: 0px
+  +single-text-shadow
 
 img.bg
   min-height: 100%
@@ -23,7 +27,6 @@ img.bg
 
   width: 100%
   height: auto
-
   position: fixed
   top: 0
   left: 0
@@ -67,10 +70,9 @@ img.bg
     width: 100px
     position: relative
     top: -120px
-    left: -30px
+    left: -5px
     float: right
     +opacitybaruco
-
 
 #links
   top: 20px

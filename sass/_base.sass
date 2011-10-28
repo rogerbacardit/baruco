@@ -7,11 +7,23 @@ $header-color: $font-color
 
 $blueprint-font-family: "Trebuchet MS"
 
-$link-color: #db2e34
+$link-color: white
 $link-visited-color: $link-color
 $link-hover-color: $link-color
 $link-active-color: $link-color
 
+
+
 @mixin opacitybaruco
   color: white
   +opacity(0.6)
+
+@mixin opacitynone
+  color: white
+  +opacity(10)
+
+$default-text-shadow-color: rgba(black, .6)
+$default-text-shadow-blur: 3px
+$default-text-shadow-v-offset: 1px
+
+

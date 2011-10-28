@@ -1,4 +1,93 @@
 @charset "UTF-8";
+#tweets {
+  margin-top: 20px;
+  margin-left: 12px;
+  color: white;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+  position: relative;
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 270px;
+}
+#tweets a {
+  color: white;
+  font-weight: bold;
+}
+#tweets:hover {
+  color: white;
+  color: white;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1000)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=1000);
+  opacity: 10;
+}
+* html #tweets {
+  overflow-x: hidden;
+}
+#tweets ul.tweet_list {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+#tweets ul.tweet_list li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+}
+#tweets li {
+  overflow: hidden;
+  border-top: 1px dotted #cccccc;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  list-style: none;
+}
+#tweets li li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+}
+#tweets li.tweet_first {
+  border-top: none;
+  padding-top: 0px;
+}
+#tweets li .tweet_avatar {
+  margin-left: 10px;
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 30px;
+}
+* html #tweets li .tweet_avatar {
+  overflow-x: hidden;
+}
+#tweets li .tweet_avatar img {
+  border: 2px solid #cccccc;
+}
+#tweets li .tweet_time, #tweets li .tweet_text {
+  margin-left: 10px;
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 190px;
+}
+* html #tweets li .tweet_time, * html #tweets li .tweet_text {
+  overflow-x: hidden;
+}
+#tweets li .tweet_time {
+  font-size: 12px;
+  color: red;
+}
+#tweets li .tweet_time a {
+  color: white;
+  color: white;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -57,11 +146,12 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
+  padding: 0px;
   line-height: 1.5;
   font-family: "Trebuchet MS";
   color: #555555;
   font-size: 75%;
-  padding: 0px;
+  text-shadow: rgba(0, 0, 0, 0.6) 0px 1px 3px;
 }
 body h1, body h2, body h3, body h4, body h5, body h6 {
   font-weight: normal;
@@ -115,19 +205,19 @@ body p .right {
 }
 body a {
   text-decoration: underline;
-  color: #db2e34;
+  color: white;
 }
 body a:visited {
-  color: #db2e34;
+  color: white;
 }
 body a:focus {
-  color: #db2e34;
+  color: white;
 }
 body a:hover {
-  color: #db2e34;
+  color: white;
 }
 body a:active {
-  color: #db2e34;
+  color: white;
 }
 body blockquote {
   margin: 1.5em;
@@ -413,7 +503,7 @@ img.bg {
   width: 100px;
   position: relative;
   top: -120px;
-  left: -30px;
+  left: -5px;
   float: right;
   color: white;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
