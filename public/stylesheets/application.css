@@ -465,7 +465,7 @@ img.bg {
   vertical-align: middle;
 }
 #content span.barcelona {
-  font-size: 123px;
+  font-size: 129px;
   letter-spacing: 2px;
   font-family: "FuturaStdMedium";
   position: relative;
@@ -503,7 +503,6 @@ img.bg {
   width: 100px;
   position: relative;
   top: -120px;
-  left: -5px;
   float: right;
   color: white;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
