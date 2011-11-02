@@ -88,6 +88,20 @@
   opacity: 0.6;
 }
 
+#lol {
+  background: black;
+  height: 100%;
+  width: 80%;
+  position: relative;
+  top: -1px;
+  left: 20%;
+  border: solid 1px white;
+  color: white;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  opacity: 0.6;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -520,6 +534,7 @@ img.bg {
   width: 400px;
   font-family: "FuturaStdMedium";
   font-size: 15px;
+  float: left;
   list-style: none;
   color: white;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";

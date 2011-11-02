@@ -1,6 +1,6 @@
 html
   head
-    title BARUCO 2012
+    title BARUCO 2012 SPEAKERS
     meta charset='utf-8'
     link rel="stylesheet" href="/stylesheets/application.css"
     link href='http://fonts.googleapis.com/css?family=Jockey+One' rel='stylesheet' type='text/css'
@@ -8,11 +8,10 @@ html
     script type="text/javascript" src="http://code.jquery.com/jquery-1.6.2.min.js"
     script type="text/javascript" src="/javascripts/jquery.tweet.js"
 
+body
+  #bg
+    img src="/images/bg.jpg" class="bg"
 
-  body
-    #bg
-      img src="/images/bg.jpg" class="bg"
 
-    == render partial: 'menu'
-    == render partial: 'tweets'
-    == render partial: 'logo'
+  == render partial: 'menu'
+  == render partial: 'speakers'
